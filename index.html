@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Skirmish Games</title>
-<meta name="description" content="Free, fan-made web tools for skirmish tabletop games: team builders, roster tools and printable cards.">
+<title>Skirmish Games Web Apps</title>
+<meta name="description" content="Free, fan-made web apps for skirmish tabletop games: team builders, roster tools and printable cards.">
 <style>
   :root {
     --bg: #f6f4ef;
@@ -61,6 +61,9 @@
   .card a.btn.secondary { background: transparent; color: var(--text); border-color: var(--line); }
   .card a.btn:hover, .card a.btn:focus-visible { filter: brightness(1.1); outline: 2px solid var(--text); outline-offset: 2px; }
   .card a.btn.secondary:hover, .card a.btn.secondary:focus-visible { border-color: var(--text); filter: none; }
+  .others { border-top: 1px solid var(--line); padding-top: 36px; }
+  .others h2.section-title { font-size: 1.6rem; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.01em; }
+  .others .note { margin: 0; max-width: 64ch; color: var(--muted); }
   footer { border-top: 1px solid var(--line); padding: 24px 0 48px; color: var(--muted); font-size: 0.9rem; }
   footer p { margin: 0 0 8px; max-width: 70ch; }
   footer a { color: inherit; }
@@ -69,22 +72,13 @@
 <body>
 <div class="wrap">
   <header>
-    <h1>Skirmish Games</h1>
+    <h1>Skirmish Games Web Apps</h1>
     <p>Free web tools for skirmish tabletop games. Build a team, keep a roster, print the cards.</p>
     <p>Tabletop gaming is one of my hobbies, and I'm a fan of skirmish and indie games. Most of these games don't have the resources to offer printed cards or list builders, so this site is a fan project for the community, built to make the games easier and more enjoyable to play.</p>
   </header>
 
   <main>
     <div class="grid">
-      <section class="card">
-        <h2>Rogue Warriors</h2>
-        <p>Team builder and printable card system for Rogue Warriors. Pick a team, print the cards once and mix loadouts.</p>
-        <div class="actions">
-          <a class="btn" href="https://roguewarriors.skirmishgames.app/">Open the tool</a>
-          <a class="btn secondary" href="https://tabletopskirmishgames.com/collections/rogue-warriors" target="_blank" rel="noopener">Game Info</a>
-        </div>
-      </section>
-
       <section class="card">
         <h2>7TV Casting Office</h2>
         <p>Design 7TV 2nd Edition profile cards and cast your crew for Core and 80s genre play.</p>
@@ -95,11 +89,11 @@
       </section>
 
       <section class="card">
-        <h2>Pulp Alley</h2>
-        <p>Card and roster tools for Pulp Alley.</p>
+        <h2>Black Powder Red Earth</h2>
+        <p>Force builder for Black Powder Red Earth (BPRE).</p>
         <div class="actions">
-          <a class="btn" href="https://pulpalley.skirmishgames.app/">Open the tool</a>
-          <a class="btn secondary" href="https://www.pulpalley.com" target="_blank" rel="noopener">Game Info</a>
+          <a class="btn" href="https://bpre.skirmishgames.app/">Open the tool</a>
+          <a class="btn secondary" href="https://www.blackpowderredearth.com/games.php" target="_blank" rel="noopener">Game Info</a>
         </div>
       </section>
 
@@ -113,14 +107,54 @@
       </section>
 
       <section class="card">
-        <h2>Black Powder Red Earth</h2>
-        <p>Force builder for Black Powder Red Earth (BPRE).</p>
+        <h2>Pulp Alley</h2>
+        <p>Card and roster tools for Pulp Alley.</p>
         <div class="actions">
-          <a class="btn" href="https://bpre.skirmishgames.app/">Open the tool</a>
-          <a class="btn secondary" href="https://www.blackpowderredearth.com/games.php" target="_blank" rel="noopener">Game Info</a>
+          <a class="btn" href="https://pulpalley.skirmishgames.app/">Open the tool</a>
+          <a class="btn secondary" href="https://www.pulpalley.com" target="_blank" rel="noopener">Game Info</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Rogue Warriors</h2>
+        <p>Team builder and printable card system for Rogue Warriors. Pick a team, print the cards once and mix loadouts.</p>
+        <div class="actions">
+          <a class="btn" href="https://roguewarriors.skirmishgames.app/">Open the tool</a>
+          <a class="btn secondary" href="https://tabletopskirmishgames.com/collections/rogue-warriors" target="_blank" rel="noopener">Game Info</a>
         </div>
       </section>
     </div>
+
+    <section class="others" aria-labelledby="others-title">
+      <h2 class="section-title" id="others-title">Tools made by other people</h2>
+      <p class="note">Good tools built by other people in the community. I did not make them and I do not maintain them. They open on their own sites.</p>
+      <div class="grid">
+        <section class="card">
+          <h2>Arsenal</h2>
+          <p>Arsenal Ops Assistant, a list builder and keyword reference for Arsenal.</p>
+          <div class="actions">
+            <a class="btn" href="https://aoa.bitdeathlabs.com/" target="_blank" rel="noopener">Open the tool</a>
+            <a class="btn secondary" href="https://www.electi-studio.com/blastervol07" target="_blank" rel="noopener">Game Info</a>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Star Wars Imperial Assault</h2>
+          <p>Tabletop Admiral's list builder for Imperial Assault.</p>
+          <div class="actions">
+            <a class="btn" href="https://classic.tabletopadmiral.com/imperialassault/" target="_blank" rel="noopener">Open the tool</a>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Star Wars Legion</h2>
+          <p>Tabletop Admiral's army builder for Star Wars Legion.</p>
+          <div class="actions">
+            <a class="btn" href="https://tabletopadmiral.com" target="_blank" rel="noopener">Open the tool</a>
+          </div>
+        </section>
+      </div>
+    </section>
   </main>
 
   <footer>

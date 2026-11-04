@@ -13,11 +13,13 @@ Each app lives in its own repo and its own subdomain.
 
 | App | Repo | Address |
 | --- | --- | --- |
-| Rogue Warriors | Rogue-Warriors-Quartermaster | roguewarriors.skirmishgames.app |
 | 7TV Casting Office | 7TV-Casting-Office | 7tv.skirmishgames.app |
-| Pulp Alley | Pulp-Alley | pulpalley.skirmishgames.app |
-| Breacher | breacher | breacher.skirmishgames.app |
 | Black Powder Red Earth | bpre-force-builder | bpre.skirmishgames.app |
+| Breacher | breacher | breacher.skirmishgames.app |
+| Pulp Alley | Pulp-Alley | pulpalley.skirmishgames.app |
+| Rogue Warriors | Rogue-Warriors-Quartermaster | roguewarriors.skirmishgames.app |
+
+Keep the cards in alphabetical order. The "Tools made by other people" section at the bottom of `index.html` links to tools hosted elsewhere (Arsenal, Star Wars Imperial Assault, Star Wars Legion).
 
 ## Adding an app
 

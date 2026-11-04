@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skirmish Games</title>
+<meta name="description" content="Free, fan-made web tools for skirmish tabletop games: team builders, roster tools and printable cards.">
+<style>
+  :root {
+    --bg: #f6f4ef;
+    --surface: #ffffff;
+    --text: #1d1d1b;
+    --muted: #5d5b55;
+    --line: #dcd8cd;
+    --accent: #9a3b1f;
+    --accent-text: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #151513;
+      --surface: #1f1f1c;
+      --text: #ecebe6;
+      --muted: #a4a299;
+      --line: #34332e;
+      --accent: #e0805a;
+      --accent-text: #151513;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 56px 0 28px; }
+  h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.1; margin: 0 0 12px; letter-spacing: -0.02em; }
+  header p { margin: 0; max-width: 56ch; color: var(--muted); font-size: 1.1rem; }
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); padding: 12px 0 40px; }
+  .card {
+    display: flex; flex-direction: column;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .card h2 { font-size: 1.25rem; margin: 0 0 6px; }
+  .card p { margin: 0 0 18px; color: var(--muted); flex: 1; }
+  .card a.btn {
+    align-self: flex-start;
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 9px 16px;
+    border-radius: 6px;
+  }
+  .card a.btn:hover, .card a.btn:focus-visible { filter: brightness(1.1); outline: 2px solid var(--text); outline-offset: 2px; }
+  footer { border-top: 1px solid var(--line); padding: 24px 0 48px; color: var(--muted); font-size: 0.9rem; }
+  footer p { margin: 0 0 8px; max-width: 70ch; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Skirmish Games</h1>
+    <p>Free web tools for skirmish tabletop games. Build a team, keep a roster, print the cards.</p>
+  </header>
+
+  <main>
+    <div class="grid">
+      <section class="card">
+        <h2>Rogue Warriors Quartermaster</h2>
+        <p>Team builder and printable card system for Rogue Warriors. Pick a team, print the cards once and mix loadouts.</p>
+        <a class="btn" href="https://roguewarriors.skirmishgames.app/">Open the tool</a>
+      </section>
+
+      <section class="card">
+        <h2>7TV Casting Office</h2>
+        <p>Design 7TV 2nd Edition profile cards and cast your crew for Core and 80s genre play.</p>
+        <a class="btn" href="https://7tv.skirmishgames.app/">Open the tool</a>
+      </section>
+
+      <section class="card">
+        <h2>Pulp Alley</h2>
+        <p>Card and roster tools for Pulp Alley.</p>
+        <a class="btn" href="https://pulpalley.skirmishgames.app/">Open the tool</a>
+      </section>
+
+      <section class="card">
+        <h2>Breacher</h2>
+        <p>Card and roster tools for Breacher.</p>
+        <a class="btn" href="https://breacher.skirmishgames.app/">Open the tool</a>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Unofficial, fan-made tools. Not affiliated with or endorsed by the publishers of the games listed. Game names and trademarks belong to their owners.</p>
+    <p>Built by Ivan Staroversky.</p>
+  </footer>
+</div>
+</body>
+</html>

@@ -13,6 +13,7 @@ Each app lives in its own repo and its own subdomain.
 
 | App | Repo | Address |
 | --- | --- | --- |
+| 6: Siege - The Board Game | 6-Siege-The-Board-Game | 6siege.skirmishgames.app |
 | 7TV Casting Office | 7TV-Casting-Office | 7tv.skirmishgames.app |
 | Achtung Panzer! | Achtung-Panzer | achtungpanzer.skirmishgames.app |
 | Black Powder Red Earth | bpre-force-builder | bpre.skirmishgames.app |
